@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.home-page {
+    background-image: url(https://thumbs.dreamstime.com/b/two-ladybugs-orange-spring-flower-flight-insect-artistic-macro-image-concept-spring-summer-two-ladybugs-orange-125140826.jpg);
+    background-size: cover;
+  }
+  .contact-page {
+    background-image:url(https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg) ;
+    background-size: cover;
+  }
+  .about-page {
+    background-image:url(https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg) ;
+    background-size: cover;
+  }
+  .blog-page {
+    background-image:url(https://th.bing.com/th/id/OIG4.7h3EEAkofdcgjDEjeOyg);
+    background-size: cover;
+  }
+nav {
+  background-color: #69d2b4;
+  color: white;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+nav h1 {
+  color: white;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin: 0 15px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+a img {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+
+a:hover {
+  color: #303839;
+}
