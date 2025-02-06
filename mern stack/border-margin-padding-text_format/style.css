@@ -1,0 +1,30 @@
+p{
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    /* margin: 50px 20px 50px 20px;   can also use it when we need to apply on all the sides at once */
+    /* margin: 50px 20px; */
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    /* padding: 50px 20px 50px 20px;   can also use it when we need to apply on all the sides at once */
+    /* padding: 50px 20px; */
+    text-align: center;
+    vertical-align: text-bottom;
+    padding-top: 5%;
+    text-shadow: 5px 5px yellowgreen;
+}
+.container p:first-child{
+    border-top: 5px solid red;
+    border-right: 5px solid yellow;
+    border-bottom: 5px solid green;
+    border-left: 5px solid blue;
+    border-width: 20px;
+    border-style: solid;
+    /* border-color: transparent; */
+    border-radius: 100px;
+    width: 50vw;
+    height: 50vh;
+}
